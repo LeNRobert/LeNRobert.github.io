@@ -73,9 +73,20 @@ span {
 header img {
     width: 11rem;
     margin: 1rem;
-    border: var(--main-blue) 0.1em solid;
+    border: red 1em solid;
     border-radius: 10rem;
+
+    animation-name: woww;
+    animation-duration: 0.5s;
+    animation-iteration-count: infinite;
 }
+
+@keyframes woww {
+    from {border: red 1em solid;}
+    to {border: blue 0.2em solid;}
+  }
+  
+  
 
 header h1 {
     color: var(--main-blue);
@@ -84,86 +95,6 @@ header h1 {
 header h3 {
     color: var(--cyan-blue);
     padding: 1rem;
-}
-
-/* -------------- BUTTONS -------------- */
-
-.button-section {
-    display: flex;
-    justify-content: center;
-}
-
-.button-section .button-item {
-    padding: 0.5rem;
-    margin: 0.3rem;
-    background-color: var(--dark-blue);
-    border-radius: 0.5rem;
-}
-
-.button-section .button-item a{
-    text-decoration: none;
-    color: var(--white-color);
-}
-
-.button-section .button-item:hover{
-    background-color: var(--cyan-blue);
-    color: var(--white-color);
-}
-
-/* -------------- CARDBOARD -------------- */
-
-.section-cardboard {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-}
-
-.card-theme h1 {
-    text-decoration-line: underline;
-    text-decoration-color: var(--main-blue);
-    text-decoration-thickness: 0.2rem;
-    text-underline-offset: 0.5rem;
-}
-
-.cardbox {
-    padding: 1rem;
-    margin: 1.5rem;
-    width: 15rem;
-    border-radius: 1rem;
-    box-shadow: 0.1rem 0.2rem 0.5rem var(--black-color);
-}
-
-.cardbox h3{
-    color: var(--main-blue);
-    font-size: 1.5rem;
-}
-
-.cardbox img {
-    width: 8rem;
-    border-radius: 1rem;
-    margin-bottom: 0.5rem;
-    box-shadow: 0.05rem 0.05rem 0.8rem var(--black-color);
-}
-
-.cardbox p {
-    color: var(--black-color);
-    font-size: var(--font-caption);
-    padding: 0.5rem;
-}
-
-.tag-section {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-}
-
-.tag-item {
-    background-color: var(--main-blue);
-    color: var(--white-color);
-    padding: 0.3rem;
-    margin: 0.2rem;
-    border-radius: 0.3rem;
-    font-weight: 900;
 }
 
 /* LANDSCAPE MODE DISABLED */
