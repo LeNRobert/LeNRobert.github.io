@@ -74,7 +74,7 @@ header img {
     width: 11rem;
     margin: 1rem;
     border: red 1em solid;
-    border-radius: 10rem;
+    border-radius: 2rem;
 
     animation-name: woww;
     animation-duration: 0.5s;
@@ -94,6 +94,11 @@ header h1 {
 
 header h3 {
     color: var(--cyan-blue);
+    padding: 1rem;
+}
+
+
+#presentation{
     padding: 1rem;
 }
 
