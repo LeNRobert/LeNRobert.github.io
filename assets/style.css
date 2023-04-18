@@ -1,20 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Barlow&display=swap');
 
-:root {
-    --main-blue: rgb(16, 129, 182);
-    --cyan-blue: rgb(22, 173, 183);;
-    --dark-blue: rgb(34, 129, 182);;
-    --purple-color: rgb(157, 129, 182);
-    --dark-purple-color: rgb(157, 22, 182);
-
-    --black-color: black;
-    --white-color: white;
-
-    --font-title: 2rem;
-    --font-secondtitle: 2rem;
-    --font-caption: 1rem;
-}
-
 * {
     box-sizing: border-box;
     margin: 0;
@@ -38,12 +23,12 @@ a {
 
 footer {
     padding-bottom: 1rem;
-    color: var(--main-blue);
+    color: darkblue;
     text-align: center;
 }
 
 span {
-    color: var(--cyan-blue);
+    color: cyan;
 }
 
 /* -------------- NAV BAR -------------- */
@@ -52,7 +37,7 @@ span {
     display: flex;
     justify-content: space-between;
     padding: 1rem;
-    box-shadow: 0.1rem 0.1rem 0.5rem var(--black-color);
+    box-shadow: 0.1rem 0.1rem 0.5rem black;
 }
 
 #navbar .logo {
@@ -61,11 +46,11 @@ span {
 
 #navbar a {
     text-decoration: none;
-    color: var(--black-color);
+    color: black;
 }
 
 #navbar a:hover {
-    color: var(--main-blue);
+    color: blue;
 }
 
 /* -------------- HEADER -------------- */
@@ -73,33 +58,25 @@ span {
 header img {
     width: 11rem;
     margin: 1rem;
-    border: red 1em solid;
+    border: blue 0.2em solid;
     border-radius: 2rem;
-
-    animation-name: woww;
-    animation-duration: 0.5s;
-    animation-iteration-count: infinite;
 }
 
-@keyframes woww {
-    from {border: red 1em solid;}
-    to {border: blue 0.2em solid;}
-  }
-  
-  
 
 header h1 {
-    color: var(--main-blue);
+    color: blue;
 }
 
 header h3 {
-    color: var(--cyan-blue);
+    color: cyan;
     padding: 1rem;
 }
 
 
 #presentation{
-    padding: 1rem;
+    padding: 3rem;
+    background-color: darkblue;
+    color: white;
 }
 
 /* LANDSCAPE MODE DISABLED */
