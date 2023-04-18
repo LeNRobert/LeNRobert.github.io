@@ -14,7 +14,6 @@ section {
     text-align: center;
     justify-content: center;
     align-items: center;
-    padding: 1rem;
 }
 
 a {
@@ -54,12 +53,21 @@ span {
 }
 
 /* -------------- HEADER -------------- */
+header{
+    background-image: url("bg.jpg");
+    min-height: 500px; 
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
 
 header img {
     width: 11rem;
     margin: 1rem;
     border: blue 0.2em solid;
     border-radius: 2rem;
+    
 }
 
 
@@ -77,6 +85,16 @@ header h3 {
     padding: 3rem;
     background-color: darkblue;
     color: white;
+    margin-top: 10rem;
+    margin-bottom: 10rem;
+
+}
+
+#chepa{
+    padding: 3rem;
+    margin-top: 10rem;
+    margin-bottom: 10rem;
+
 }
 
 /* LANDSCAPE MODE DISABLED */
